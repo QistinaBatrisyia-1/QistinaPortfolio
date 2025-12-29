@@ -1,0 +1,23 @@
+body {
+    margin: 20px;
+    background : rgb(255, 255, 255);
+     
+}
+        img {
+            width: 1000px;
+            height: 150px;
+            border-radius: 10px;
+            float: left;
+            margin-right : 20px;
+            object-fit:cover;
+        }
+
+        .username{
+        font-weight:bold;
+        font-size : 20px;
+        font-style: sans-serif;
+    }
+em{
+    color:indigo;
+    font-style:italic;
+}
