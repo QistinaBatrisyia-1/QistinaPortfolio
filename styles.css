@@ -1,28 +1,54 @@
 body {
-    margin: 20px;
-    background : rgb(255, 255, 255);
+    margin: 10px;
+    background : linear-gradient(white ,blueviolet 50%);
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
      
 }
         img {
             width: 1000px;
             height: 150px;
             border-radius: 10px;
-            float: left;
+            float: center;
             margin-right : 20px;
             object-fit:cover;
         }
 
         .username{
-        font-weight:bold;
+        border-style:inset;
+        border-width: 2px;
+        border-color: blueviolet;
+        border-radius: 5px;
+        padding:5px;
+        font-family:"Montserrat", sans-serif;
+        font-weight:light;
         font-size : 20px;
-        font-style: sans-serif;
+        font-style:sans-serif;
     }
 em{
-    color:indigo;
+    color:white;
     font-style:italic;
 }
 
 .headerfont{
-    font-family: 'Arial Black', sans-serif;
-    color: darkblue;
+    margin-top:30px;
+    font-family: "Lato", sans-serif;
+    font-style:italic;
+    color:indigo;
+    font-size:30px;
+
+}
+
+#maintitle{
+    font-family: "Press Start 2P", cursive;
+    font-style:italic;
+    color:indigo;
+    font-size:30px;
+    border-bottom-style: double;
+    border-width:5px;
+    padding-bottom:3px;
+    border-radius:8px;
+    
+
 }
